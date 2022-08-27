@@ -3,7 +3,7 @@
 ## Intro
 
 A Launcher very easy to use to update files and run some exe at end </p>
-The output language is brazilian portuguese
+The output language is brazilian portuguese </p>
 To get the file generator click <a href="github.com/cleitonpaes/gerador">here</a>
 
 <p align="center">
