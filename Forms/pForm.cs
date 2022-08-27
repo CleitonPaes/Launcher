@@ -24,12 +24,9 @@ namespace Launcher
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
-            //Process.Start("Main.exe");
-
             Process process = new Process();
-            process.StartInfo.FileName = @"main.exe";
-            process.StartInfo.Arguments = @"__kogstudios_original_service__";
+            process.StartInfo.FileName = @"minecraft.exe";
+            //process.StartInfo.Arguments = @"";
             //process.StartInfo.CreateNoWindow = false;
             //process.StartInfo.UseShellExecute = false;
             process.Start();
@@ -52,7 +49,8 @@ namespace Launcher
             {
                 try
                 {
-                    c.DownloadFile("http://5.249.165.56/GrandChase/background.png", "background.png");
+                    //Custom BackGround
+                    c.DownloadFile("http://localhost/minecraft/background.png", "background.png");
 
                 }
                 catch (Exception ex)
