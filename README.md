@@ -16,4 +16,4 @@ How to use
 <img src="https://user-images.githubusercontent.com/106140045/187008546-d7c4fb9e-8364-430f-a1d9-83045b729dc6.png?raw=true"/>
 </p>
 
-This project is kinda old and use "webrequest" who is deprecated.
+This project is kinda old and use "WebClient" who is deprecated.
